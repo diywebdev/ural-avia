@@ -2,9 +2,11 @@
   "name": "start-parcel-project-with-tailwindcss",
   "version": "1.0.0",
   "browserslist": "> 0.5%, last 2 versions, not dead",
+  "type": "module",
   "scripts": {
-    "dev": "vite --host --open",
+    "dev": "vite --config vite.config.local.js --host --open",
     "build": "vite build --emptyOutDir",
+    "build_local": "vite build --config vite.config.local.js --emptyOutDir",
     "preview": "vite preview"
   },
   "devDependencies": {
