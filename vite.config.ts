@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import path from "path";
 
 export default defineConfig({
-  base: '/',
+  base: 'https://diywebdev.github.io/ural-avia/',
   build: {
     outDir: path.resolve(__dirname, 'docs'),
     rollupOptions: {
