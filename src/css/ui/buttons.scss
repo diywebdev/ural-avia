@@ -3,4 +3,7 @@
 	&.btn-o{
 		@apply bg-transparent hover:bg-accent-500 hover:border-accent-500;
 	}
+	&.black{
+		@apply text-[#2B2B2B] hover:text-white
+	}
 }
