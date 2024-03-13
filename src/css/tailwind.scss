@@ -5,18 +5,9 @@
 @layer base {
 	body {}
 	section{
-		@apply py-16 select-none;
+		@apply py-10 sm:py-16 select-none;
 		h2{
-			@apply title-[1.6] font-semibold text-center mb-8;
+			@apply text-2xl sm:title-[1.6] font-semibold text-center mb-5 sm:mb-8;
 		}
 	}
-}
-
-.marquee3k{
-	// overflow: hidden;
-}
-
-.marquee3k__copy {
-	// margin-right: 30px;
-	// box-sizing: border-box;
 }
