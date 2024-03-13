@@ -1,0 +1,31 @@
+<svg width="132" height="132" viewBox="0 0 132 132" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_b_4141_3425)">
+<mask id="path-1-inside-1_4141_3425" fill="white">
+<path d="M132 66C132 102.451 102.451 132 66 132C29.5492 132 0 102.451 0 66C0 29.5492 29.5492 0 66 0C102.451 0 132 29.5492 132 66Z"/>
+</mask>
+<path d="M129 66C129 100.794 100.794 129 66 129V135C104.108 135 135 104.108 135 66H129ZM66 129C31.2061 129 3 100.794 3 66H-3C-3 104.108 27.8924 135 66 135V129ZM3 66C3 31.2061 31.2061 3 66 3V-3C27.8924 -3 -3 27.8924 -3 66H3ZM66 3C100.794 3 129 31.2061 129 66H135C135 27.8924 104.108 -3 66 -3V3Z" fill="white" mask="url(#path-1-inside-1_4141_3425)"/>
+</g>
+<g filter="url(#filter1_bd_4141_3425)">
+<path d="M53.9632 88.8404C50.2505 86.6564 49.781 44.7833 53.9632 42.2273C58.1455 39.6714 88 59.399 88 64.782C88 70.165 57.6759 91.0244 53.9632 88.8404Z" stroke="#ECECEC" stroke-width="3" shape-rendering="crispEdges"/>
+</g>
+<defs>
+<filter id="filter0_b_4141_3425" x="-4" y="-4" width="140" height="140" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="2"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_4141_3425"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_4141_3425" result="shape"/>
+</filter>
+<filter id="filter1_bd_4141_3425" x="39.5" y="34.5" width="60" height="70" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feGaussianBlur in="BackgroundImageFix" stdDeviation="3"/>
+<feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_4141_3425"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0"/>
+<feBlend mode="normal" in2="effect1_backgroundBlur_4141_3425" result="effect2_dropShadow_4141_3425"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_4141_3425" result="shape"/>
+</filter>
+</defs>
+</svg>

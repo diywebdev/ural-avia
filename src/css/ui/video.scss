@@ -1,11 +1,11 @@
 .video{
-	@apply bg-no-repeat;
+	@apply bg-no-repeat relative z-[2];
 	background-size: 470px;
 	background-position: left 6% bottom;
 }
 
 .video-item{
-	@apply relative max-w-[1018px] w-full aspect-video mx-auto rounded-[40px] overflow-hidden z-[-1];
+	@apply relative max-w-[1018px] w-full aspect-video mx-auto rounded-[40px] overflow-hidden z-[1];
 	&::before{
 		content: '';
 		position: absolute;
@@ -13,5 +13,8 @@
 		width: 100%;
 		height: 100%;
 		background: linear-gradient(180deg, rgba(10, 67, 124, 0.6) 29.8%, rgba(12, 79, 147, 0) 75.92%);
+	}
+	.play-btn{
+		@apply absolute z-50 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer transition-opacity hover:opacity-80;
 	}
 }
