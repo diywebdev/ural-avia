@@ -4,6 +4,11 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+dependencies:
+  marquee3000:
+    specifier: ^1.1.1
+    version: 1.1.1
+
 devDependencies:
   autoprefixer:
     specifier: ^10.4.18
@@ -771,6 +776,10 @@ packages:
     resolution: {integrity: sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==}
     engines: {node: 14 || >=16.14}
     dev: true
+
+  /marquee3000@1.1.1:
+    resolution: {integrity: sha512-XAZdVIdunQT2EdHdMmkbXh5i728KxwGmvY1w60WZdYmF3WgyBr4dcdyufTGfFPR1Rogr35Y9zST0vUsNN3WKPg==}
+    dev: false
 
   /merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
