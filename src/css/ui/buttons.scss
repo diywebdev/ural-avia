@@ -1,0 +1,6 @@
+.btn{
+	@apply text-sm uppercase font-semibold py-5 px-6 bg-accent-500 border-[3px] border-accent-500 text-white rounded-[100px] transition-colors hover:bg-accent-500/90 hover:border-accent-500/90;
+	&.btn-o{
+		@apply bg-transparent hover:bg-accent-500 hover:border-accent-500;
+	}
+}

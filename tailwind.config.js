@@ -10,10 +10,21 @@ export const theme = {
     center: true,
     padding: '1.25rem',
   },
+  screens: {
+    'sm': '640px',
+    'md': '768px',
+    'lg': '1024px',
+    'xl': '1280px',
+    '2xl': '1280px',
+  },
   extend: {
-    colors: {},
+    colors: {
+      accent: {
+        500: '#FF6600',
+      }
+    },
     fontFamily: {
-      'sans': ['Roboto', ...defaultTheme.fontFamily.sans],
+      'sans': ['Inter', ...defaultTheme.fontFamily.sans],
     },
   },
 }
