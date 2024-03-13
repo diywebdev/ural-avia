@@ -4,4 +4,7 @@
 
 @layer base {
 	body {}
+	section{
+		@apply py-16;
+	}
 }

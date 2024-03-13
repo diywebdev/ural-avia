@@ -22,6 +22,9 @@ export const theme = {
     colors: {
       accent: {
         500: '#FF6600',
+      },
+      blue: {
+        500: '#4DA6FF',
       }
     },
     fontFamily: {
