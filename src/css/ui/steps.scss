@@ -1,0 +1,27 @@
+.steps{
+	@apply relative before:top-[-80px] sm:before:top-[-45px];
+	&::before{
+		content: '';
+		position: absolute;
+		height: 100px;
+		width: 100%;
+		background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 16.96%);
+		left: 0;
+		z-index: 10;
+		opacity: 0.97;
+	}
+}
+.steps__wrap{
+	counter-reset: number;
+}
+.step__item{
+	display: flex;
+	align-items: flex-start;
+	&::before{
+		counter-increment: number;
+		content: '0'#{counter(number)};
+		font-size: 85px;
+		font-weight: 600;
+		color: #f1f1f1;
+	}
+}
