@@ -1,11 +1,9 @@
 .video{
-	@apply bg-no-repeat relative z-[2];
-	background-size: 470px;
-	background-position: left 6% bottom;
+	@apply relative;
 }
 
 .video-item{
-	@apply relative max-w-[1018px] w-full aspect-video mx-auto rounded-[40px] overflow-hidden z-[1];
+	@apply relative max-w-[1018px] w-full aspect-[4/3] sm:aspect-video mx-auto rounded-[40px] overflow-hidden z-[1];
 	&::before{
 		content: '';
 		position: absolute;
