@@ -7,4 +7,10 @@
 	p{
 		@apply text-base sm:text-lg md:text-2xl tracking-wider max-w-[520px] mb-6 sm:mb-10;
 	}
+	.form-input{
+		@apply max-md:w-full flex-grow;
+	}
+	.btn{
+		@apply max-md:w-full border-2;
+	}
 }
