@@ -1,6 +1,7 @@
 .steps{
 	@apply relative before:top-[-80px] sm:before:top-[-45px];
 	&::before{
+		@apply hidden sm:block;
 		content: '';
 		position: absolute;
 		height: 100px;
@@ -13,15 +14,22 @@
 }
 .steps__wrap{
 	counter-reset: number;
+	@apply mx-auto max-w-[815px] flex flex-wrap justify-center sm:grid sm:grid-rows-6 grid-cols-2 sm:grid-cols-6 gap-y-8 sm:gap-y-24 pt-5 md:pt-10;
 }
 .step__item{
-	display: flex;
-	align-items: flex-start;
+	@apply relative text-center text-base min-[400px]:text-sm md:text-base w-full min-[400px]:w-1/2 sm:w-auto;
 	&::before{
 		counter-increment: number;
 		content: '0'#{counter(number)};
-		font-size: 85px;
-		font-weight: 600;
-		color: #f1f1f1;
+		@apply absolute font-semibold text-gray-200 md:text-[#f1f1f1] text-5xl md:text-[85px] left-1/2 -translate-x-[110px] sm:translate-x-0 sm:-left-2 md:-left-3 md:-top-[30%];
+	}
+}
+.step__item-icon{
+	@apply size-[120px] sm:size-[100px] md:size-[128px] relative mx-auto; 
+	img{
+		@apply absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-1/2 md:w-auto;
+	}
+	svg{
+		@apply absolute left-1/2 -translate-x-1/2 size-[inherit] stroke-[3px];
 	}
 }
