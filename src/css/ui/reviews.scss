@@ -1,0 +1,13 @@
+.reviews{
+	@apply relative before:top-[-80px] sm:before:top-[-45px];
+	&::before{
+		content: '';
+		position: absolute;
+		height: 100px;
+		width: 100%;
+		background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 16.96%);
+		left: 0;
+		z-index: 10;
+		opacity: 0.97;
+	}
+}
